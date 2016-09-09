@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/app_bg2">
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    >
+
+	     <TextView
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:text="云端路径:"
+	      />
+
+	    <EditText
+	        android:id="@+id/abcet_sourcepath"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" />
+	    
+	</LinearLayout>
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    >
+
+	     <TextView
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:text="本地路径:"
+	      />
+
+	    <EditText
+	        android:id="@+id/abcet_targetpath"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	       />
+	    
+	</LinearLayout>
+   
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal" >
+
+	   		 <Button
+		        android:id="@+id/abcbt_start"
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:layout_weight="1"
+		        android:text="开始下载" 
+		        android:background="@drawable/aaa_myshape"/>
+	
+		    <Button
+		        android:id="@+id/abcbt_appdata"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1"
+		        android:text="还原程序"
+		        android:background="@drawable/aaa_myshape" />
+		    <Button
+		        android:id="@+id/abcbt_finish"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1"
+		        android:text="取消"
+		        android:background="@drawable/aaa_myshape" />
+		    
+		   
+	    </LinearLayout>
+
+	     <TextView
+	         android:id="@+id/abctv_loging"
+	         android:layout_width="match_parent"
+	         android:layout_height="wrap_content" />
+	     <ProgressBar
+	        android:id="@+id/abcpb_progress"
+	        style="?android:attr/progressBarStyleHorizontal"
+	        android:layout_width="match_parent"
+	        android:layout_height="15dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/abctv_log"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        
+    </ScrollView>
+   
+
+</LinearLayout>

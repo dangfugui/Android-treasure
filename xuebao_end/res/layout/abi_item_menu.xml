@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/paraList_rl"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:padding="5dip">
+	<ImageView android:id="@+id/abiim_image"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:layout_marginLeft="5dip"
+			android:scaleType="centerInside"
+			android:layout_centerVertical="true"/>
+
+	<LinearLayout
+	    android:id="@+id/zabilinear"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginRight="50dip"
+	    android:layout_centerVertical="true"
+	    android:layout_toRightOf="@+id/abiim_image"
+	    android:gravity="top"
+	    android:layout_marginLeft="10dip"   
+	    android:orientation="vertical" >
+
+		<TextView
+		    android:id="@+id/abitv_nenuname"
+		    style="@style/tvInListView"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:ellipsize="end"
+		    android:singleLine="true"
+		    android:textSize="20dp" />
+
+	</LinearLayout>
+
+	<ImageView
+	    android:id="@+id/abiim_image2"
+	    android:layout_width="40dip"
+	    android:layout_height="40dip"
+	    android:layout_alignParentRight="true"
+	    android:layout_alignTop="@+id/abiim_image"
+	    android:scaleType="centerInside" />
+
+</RelativeLayout>

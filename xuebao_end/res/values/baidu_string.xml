@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">用户反馈Demo</string>
+    <string name="text_onoff_push">使用Push</string>
+    <string name="text_user_name_hint">用户名：</string>
+    <string name="text_user_contact_hint">联系方式：</string>
+    <string name="text_submit_info">提交用户信息</string>
+    <string name="text_start_fb_activity">启动用户反馈界面</string>
+    <string name="text_nofity_hint">您的反馈有新回复</string>
+    <string name="user_info_set_ok">用户信息设置完成</string>
+
+</resources>

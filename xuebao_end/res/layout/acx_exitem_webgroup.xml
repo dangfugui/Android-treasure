@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/paraList_rl"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:padding="5dip"
+android:background="@drawable/aaa_myshape"
+android:dividerHeight="10dp"
+
+>
+	<ImageView android:id="@+id/acxim_image"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:layout_marginLeft="5dip"
+			android:scaleType="centerInside"
+			android:layout_centerVertical="true"/>
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_centerVertical="true"
+	    android:layout_toRightOf="@+id/acxim_image"
+	    android:gravity="top"
+	    android:orientation="vertical"
+	    android:layout_marginLeft="10dip"
+	     >
+
+		<TextView
+		    android:id="@+id/acxtv_groupname"
+		    style="@style/tvInListView"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:ellipsize="end"
+		    android:singleLine="true"
+		    android:textSize="20dp"
+		     />
+
+	</LinearLayout>
+
+	<ImageView
+	    android:id="@+id/acxim_image2"
+	    android:layout_width="40dip"
+	    android:layout_height="40dip"
+	    android:layout_alignParentRight="true"
+	    android:layout_alignTop="@+id/acxim_image"
+	    android:scaleType="centerInside" />
+
+</RelativeLayout>

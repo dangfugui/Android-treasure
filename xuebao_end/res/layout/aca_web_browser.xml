@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+	
+    <LinearLayout
+        android:id="@+id/acall_linear"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/Dtitle"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:focusable="true"  
+   		android:focusableInTouchMode="true">
+       <EditText
+            android:id="@+id/acaet_find"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:layout_weight="5"
+            android:background="@drawable/aaa_myshape"
+            android:hint="搜索"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp"
+            android:textColor="#12D20F"
+            android:textColorHint="#999999"
+            android:textSize="25sp"
+             />
+
+        <Button
+            android:id="@+id/acabt_find"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_weight="25"
+            android:background="@drawable/aca_top_find"
+            android:textSize="14sp" />
+        
+    </LinearLayout>
+
+        
+    <ExpandableListView
+        android:layout_below="@id/acall_linear"
+        android:id="@+id/acael_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:cacheColorHint="#00000000"
+        android:listSelector="@drawable/list_item_f_bg"
+		android:dividerHeight="0.5dip"
+	 /> <!-- 背景设置为透明，防止滑动时，白屏 -->
+
+</RelativeLayout>

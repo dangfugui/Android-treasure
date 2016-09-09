@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">计步器</string>
+    <string name="notification_subtitle">计算步数</string>
+
+    <string name="started">开始</string>
+    <string name="stopped">结束</string>
+
+    <string name="steps">步幅</string>
+    <string name="kilometers">千米</string>
+    <string name="miles">英里</string>
+    <string name="steps_per_minute">步数 /分</string>
+    <string name="kilometers_per_hour">千米/小时</string>
+    <string name="miles_per_hour">英里 /小时</string>
+    <string name="calories_burned">卡路里</string>
+    <string name="centimeters">厘米</string>
+    <string name="inches">英寸</string>
+    <string name="kilograms">千克</string>
+    <string name="pounds">英镑</string>
+
+    <string name="desired_pace">理想速度:</string>
+    <string name="desired_speed">理想速度:</string>
+
+    <string name="pause">暂停</string>
+    <string name="resume">继续</string>
+    <string name="reset">重置</string>
+    
+    <!-- Settings -->
+    <string name="settings">设置</string>
+    <string name="activity_settings">记步设置</string>
+    <string name="steps_settings_title">基本设置</string>
+    <string name="sensitivity_setting">灵敏度</string>
+    <string name="sensitivity_setting_details">校准步骤探测器</string>
+    <string name="sensitivity_setting_title">敏感性设置</string>
+    <string name="extra_high">特别高</string>
+    <string name="very_high">非常高</string>
+    <string name="high">高</string>
+    <string name="higher">较高</string>
+    <string name="medium">中等</string>
+    <string name="lower">较低</string>
+    <string name="low">低</string>
+    <string name="very_low">非常低</string>
+    <string name="extra_low">特别低</string>
+    <string name="operation_level_setting">操作层次</string>
+    <string name="operation_level_setting_details">一些操作系统版本屏幕时避免使用传感器,设置水平,适合你的</string>
+    <string name="operation_level_setting_title">.</string>
+    <string name="run_in_background">正常 (试着运行在背景)</string>
+    <string name="keep_screen_on"> 屏幕开启 (保持屏幕暗)</string>
+    <string name="wake_up">有闯劲的 (当我醒来关掉屏幕)</string>
+    <string name="units_setting">单位</string>
+    <string name="units_setting_details">英制或公制单位</string>
+    <string name="units_setting_title">选择你的单位</string>
+    <string name="units_metric"> 度量标准 (千米)</string>
+    <string name="units_imperial"> 纸张尺寸 ( 英里)</string>
+    <string name="step_length_setting">步长</string>
+    <string name="step_length_setting_details">距离、速度. 卡路里计算</string>
+    <string name="step_length_setting_title">输入您的步长</string>
+    <string name="body_weight_setting">体重</string>
+    <string name="body_weight_setting_details">热量计算</string>
+    <string name="body_weight_setting_title">输入您的体重</string>
+    <string name="exercise_type_setting">运动类别</string>
+    <string name="exercise_type_setting_details">热量计算</string>
+    <string name="exercise_type_setting_title">选择运动类型</string>
+    <string name="exercise_type_running"> 跑</string>
+    <string name="exercise_type_walking">步行</string>
+    <string name="maintain_setting">保持速度/速度</string>
+    <string name="maintain_setting_details">维护所需的速度/速度</string>
+    <string name="maintain_setting_title">维持:</string>
+    <string name="maintain_nothing">什么也没有</string>
+    <string name="maintain_pace">一步</string>
+    <string name="maintain_speed">速度</string>
+    <string name="voice_settings_title">声音</string>
+    <string name="voice_setting"> 讲话</string>
+    <string name="voice_setting_details">启用/禁用声音通知</string>
+    <string name="speaking_interval_setting">间隔</string>
+    <string name="speaking_interval_setting_details">声音通知时间间隔</string>
+    <string name="interval_15_seconds">15秒</string>
+    <string name="interval_30_seconds">30 秒</string>
+    <string name="interval_1_minute">1 分钟</string>
+    <string name="interval_2_minutes">2 分钟</string>
+    <string name="interval_5_minutes">5 分钟</string>
+    <string name="interval_10_minutes">10分钟</string>
+    <string name="tell_what">告诉什么</string>
+    <string name="tell_steps_setting">步伐</string>
+    <string name="tell_steps_setting_details"></string>
+    <string name="tell_pace_setting">步速</string>
+    <string name="tell_pace_setting_details">步速 /分钟e</string>
+    <string name="tell_distance_setting">距离</string>
+    <string name="tell_distance_setting_details">千米或英里</string>
+    <string name="tell_speed_setting">速度</string>
+    <string name="tell_speed_setting_details">英里/小时或英里</string>
+    <string name="tell_calories_setting">燃烧的卡路里</string>
+    <string name="tell_calories_setting_details"></string>
+    <string name="tell_fasterslower_setting">更快/更慢</string>
+    <string name="tell_fasterslower_setting_details">帮助你保持所需的速度和速度 (时间间隔并/t适用)</string>
+    <string name="incorrect_step_length">不正确的步长格式!去设置来改变它!</string>
+
+    <string name="quit">退出</string>
+
+</resources>
